@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <h1>Visualização 3D no Navegador</h1>
+    <model-viewer
+      src="https://drive.google.com/uc?export=download&id=1iEoHyR1QDGvo-L7A_Q0U6Y2StZtRFcSJ"
+      alt="Um modelo 3D para visualização"
+      ar
+      ar-modes="scene-viewer webxr quick-look"
+      camera-controls
+      auto-rotate
+      style="width: 100%; height: 500px;">
+    </model-viewer>
+  </body>
+</html>
